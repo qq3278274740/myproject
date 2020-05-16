@@ -5,6 +5,33 @@ body {
 	margin-right: 0px;
 	background-color: #C7A6A6;
 }
+.yello {
+	background-color: #000000;
+	color: #94EB00;
+}
+.black {
+	background-color: #000000;
+	color: #79FF00;
+
+}
+.black table td {
+	padding-left: 20px;
+}
+
+
+.black table {
+	width: 780px;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.black table tr {
+	height: 45px;
+}
+
+
+
+
 .header {
 	width: 1000px;
 	background-color: #FFFFFF;
@@ -72,4 +99,81 @@ body {
 	margin-right: auto;
 	background-color: #FFFFFF;
 	text-align: center;
+}
+.yello table {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+	width: 780px;
+}
+.yello table td   {
+	padding-left: 20px;
+}
+
+.d-text {
+	text-align: center;
+	border: none;
+	line-height: 25px;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+
+}
+.text1 {
+	width: 60%;
+	border: none;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	line-height: 25px;
+	text-indent: 10px;
+}
+.text2 {
+	border: none;
+	line-height: 25px;
+	width: 35%;
+	text-indent: 10px;
+}
+.mail1 {
+	width: 5%;
+	text-align: center;
+	border: none;
+	line-height: 25px;
+}
+.mail2 {
+	line-height: 25px;
+	height: 27px;
+	border: none;
+	width: 19%;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+}
+.d-area {
+	height: 104px;
+	border: none;
+	text-align: center;
+	border-top-left-radius: 10px;
+	border-bottom-left-radius: 10px;
+	float: left;
+	width: 23%;
+}
+.areatext {
+	border-top-left-radius: 0px;
+	border-top-right-radius: 10px;
+	border-bottom-right-radius: 10px;
+	width: 56%;
+	height: 100px;
+	text-indent: 10px;
+	float: left;
+}
+.submit {
+	width: 80%;
+	border: none;
+	margin-left: 0px;
+	border-radius: 10px;
+	text-align: center;
+	line-height: 25px;
+	background-color: #FDFDFD;
+	color: #D41242;
+}
+.submit:hover {
+	background-color: #000000;
 }

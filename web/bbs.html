@@ -3,22 +3,54 @@
 <head>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <title>留言板</title>
-<style type="text/css">
-body,td,th {
-	color: #FF0;
-	text-align: center;
-}
-body {
-	background-color: #000;
-	width: 760px;
-	height: 480px;
-	margin-right: auto;
-	margin-left: auto;
-}
-</style>
+
+<link href="../style.css" rel="stylesheet" type="text/css" />
 </head>
 
-<body>
-留言板
+<body class="black">
+<table width="24">
+  <tbody>
+    <tr>
+      <td width="16"><h3>与我联系</h3></td>
+    </tr>
+    <tr>
+      <td><label for="textfield">
+        <input name="textfield" type="text" disabled="disabled" class="d-text" id="textfield" value="您的称呼：" />
+      </label>
+        <input name="textfield2" type="text" class="text1" id="textfield2" /></td>
+    </tr>
+    <tr>
+      <td><label for="textfield2">
+        <input name="textfield3" type="text" disabled="disabled" class="d-text" id="textfield2" value="您的电话：" />
+      </label>
+      <input name="textfield3" type="text" class="text1" id="textfield3" /></td>
+    </tr>
+    <tr>
+      <td>
+        <label for="textfield3">
+          <input name="textfield4" type="text" disabled="disabled" class="d-text" id="textfield3" value="联系邮箱：" />
+          </label>
+        <input name="textfield4" type="text" class="text2" id="textfield4" />
+        <input name="textfield5" type="text" disabled="disabled" class="mail1" id="textfield5" value="@" />
+        <select name="select" class="mail2" id="select">
+          <option>qq.com</option>
+          <option>126.com</option>
+          <option>163.com</option>
+          <option>msn.com</option>
+          <option>gmail.com</option>
+          <option>sina.com</option>
+          <option>yaho.com</option>
+        </select>
+      </h2></td>
+    </tr>
+    <tr>
+      <td><input name="textfield6" type="text" disabled="disabled" class="d-area" id="textfield6" value="留言内容：" />
+      <textarea name="textarea" cols="45" rows="5" class="areatext" id="textarea"></textarea>
+    </tr>
+    <tr>
+      <td><input name="button" type="button" class="submit" id="button" value="提   交" /></td>
+    </tr>
+  </tbody>
+</table>
 </body>
 </html>
